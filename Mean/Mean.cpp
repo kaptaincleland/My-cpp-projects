@@ -71,5 +71,9 @@ int main () {
     cout << "The Geometric mean is: " << fixed << setprecision(2) << geometricMeanResult << endl;
     cout << "The Harmonic mean is: " << fixed << setprecision(2) << harmonicMeanResult << endl;
 
+//wait for user input before closing
+cout << "Press Enter to close....";
+cin.ignore();
+cin.get();
     return 0;
 }
