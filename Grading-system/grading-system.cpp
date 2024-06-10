@@ -4,7 +4,9 @@ using namespace std;
 A = 100-70
 B = 69-60
 C = 59-50
-D =  */
+D = 49-40
+E = 39-30
+F = 29-0*/
 int main () {
     int mark;
     char grade;
