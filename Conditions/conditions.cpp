@@ -14,10 +14,17 @@ int main () {
 
     answer = firstNumber + secondNumber;
 
-    cout << "The sum is: " << answer << endl;
-    
-    bool name = firstNumber > secondNumber;
-    name = (5>3);
-    cout << name << endl;
+    if (firstNumber > secondNumber) {
+
+        cout << "The first number is bigger" << endl;
+    } /*else {
+        cout << ""
+    }*/
+    if (secondNumber > firstNumber) {
+        
+        cout << "The second number is greater" << endl;
+    }
+
     return 0;
 }
+
