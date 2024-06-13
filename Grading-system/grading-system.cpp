@@ -11,5 +11,23 @@ int main () {
     int mark;
     char grade;
 
+    cout << "Enter your mark: ";
+    cin >> mark; 
+
+    if (mark >= 70){
+        grade = 'A';
+    } else if (mark >= 60) {
+        grade = 'B';
+    } else if (mark >= 50) {
+        grade = 'C';
+    } else if (mark >= 40) {
+        grade = 'D';
+    } else if (mark >= 30) {
+        grade = 'E';
+    } else {
+        grade = 'F';
+    }
+    
+    cout << "Your Grade is: " << grade << endl;
     return 0;
 }
