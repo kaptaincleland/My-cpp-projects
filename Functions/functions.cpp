@@ -1,10 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int addition (int x, int y) {
-    int c = x + y;
-    return c;
-}
+int addition(int, int);
 
 int main () {
     int a,b,c;
@@ -18,4 +15,9 @@ int main () {
 
     cout << "The value of C is " << c << endl;
     return 0;
+}
+
+int addition (int x, int y) {
+    int c = x + y;
+    return c;
 }
