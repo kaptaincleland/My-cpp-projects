@@ -3,21 +3,16 @@ using namespace std;
 /*loops*/
 
 /*int main () {
-for loops
-for ( int i = 0; i < 5; i++) {
-    cout << "Enter a number: ";
-    int number;
-    cin >> number;  
-    
-    cout << number << endl;
+/*for loops
+for ( int i = 0;  i < 5; i++) {
+    cout << "Yes" << "\n";
 }
-int number;
-number = 1;
-while (number != 11) {
-    cout << "Enter a number: ";
-    cin >> number;  
-    
-    cout << number << endl;
+}
+int i = 1;
+while (i < 50) {
+    cout << i << "\n";
+    i++;
+}
 }
 int number;
 do {
@@ -28,7 +23,6 @@ do {
 } while (number != 11);
     return 0;
 }*/
-
 int main () {
     int degFahrenheit;
     int degCelsius;
